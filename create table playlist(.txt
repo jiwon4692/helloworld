@@ -1,0 +1,5 @@
+create table playlist(
+    number int primary key auto_increment,
+     songname varchar(100) default null,
+     singer varchar(100) default null
+)engine=innodb default charset="utf8";
